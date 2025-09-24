@@ -1,0 +1,1 @@
+export { useProxySelector } from './useSelector';
