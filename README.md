@@ -2,7 +2,7 @@
 
 This repository contains React 17 examples demonstrating different state management approaches and performance characteristics. Created to explore and compare various store implementation patterns.
 
-![UI Example](UI_example.png)
+![UI Example](./public/assets/UI_example.png)
 
 ## 🎯 What's in This Repository
 
