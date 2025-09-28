@@ -1,0 +1,94 @@
+.store-comparison {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
+
+.store-comparison__header {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.store-comparison__title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+  background: linear-gradient(135deg, #3b82f6, #f59e0b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.store-comparison__subtitle {
+  font-size: 1.25rem;
+  color: #64748b;
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tag Navigation */
+.store-comparison__nav {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.store-comparison__tag {
+  background-color: #e2e8f0;
+  color: #475569;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 2px solid transparent;
+}
+
+.store-comparison__tag:hover {
+  background-color: #cbd5e1;
+  transform: translateY(-1px);
+}
+
+.store-comparison__tag--active {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #2563eb;
+}
+
+.store-comparison__tag--comparison.store-comparison__tag--active {
+  background-color: #3b82f6;
+  border-color: #2563eb;
+}
+
+.store-comparison__tag--sierpinski.store-comparison__tag--active {
+  background-color: #dc2626;
+  border-color: #b91c1c;
+}
+
+.store-comparison__content {
+  display: flex;
+  min-height: calc(100vh - 140px);
+}
+
+.store-comparison__footer {
+  background-color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-top: 1px solid #e2e8f0;
+  color: #64748b;
+}
+
+.store-comparison__footer p {
+  margin: 0;
+  font-size: 0.9rem;
+} 

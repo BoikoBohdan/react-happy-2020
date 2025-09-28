@@ -1,4 +1,5 @@
 import { createProxiedStore } from './proxyWrapper';
+import { RANDOM_TEXTS } from '../constants';
 
 interface StoreState {
   count: number;
@@ -13,6 +14,7 @@ interface StoreActions {
 const createCountStore = (initialCount: number = 0) => {
   const store = {
     count: initialCount,
+    randomText: 'random',
     
     increment() {
       this.count = this.count + 1;
@@ -20,6 +22,13 @@ const createCountStore = (initialCount: number = 0) => {
     
     setCount(count: number) {
       this.count = count;
+    },
+
+    /**
+     * Just for testing purposes of granularity of updates.
+     */
+    setRandomText() {
+      this.randomText = RANDOM_TEXTS[Math.floor(Math.random() * RANDOM_TEXTS.length)];
     }
   };
   

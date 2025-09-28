@@ -1,16 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { SimpleStore } from './examples/SimpleStore';
+import FeatureSelector, { Feature } from './components/FeatureSelector';
+import StoreComparison from './components/StoreComparison';
+import { SierpinskiTriangleExample } from './examples/SierpinskiTriangleExample';
+
+const features: Feature[] = [
+  {
+    id: 'store-comparison',
+    title: 'Store Comparison',
+    emoji: '🏪',
+    description: 'Comparing Proxy-based vs Context API state management approaches',
+    component: StoreComparison,
+  },
+  {
+    id: 'sierpinski-triangle',
+    title: 'React 17 Performance',
+    emoji: '🔺',
+    description: 'Demonstrates React 17 synchronous rendering performance issues',
+    component: SierpinskiTriangleExample,
+  },
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <SimpleStore />
-      </header>
-    </div>
+    <FeatureSelector 
+      features={features} 
+      defaultFeature="store-comparison"
+    />
   );
 }
 

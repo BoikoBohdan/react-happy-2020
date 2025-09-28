@@ -1,0 +1,123 @@
+.feature-selector {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
+
+.feature-selector__header {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.feature-selector__title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+  background: linear-gradient(135deg, #3b82f6, #f59e0b, #dc2626);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.feature-selector__subtitle {
+  font-size: 1.25rem;
+  color: #64748b;
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Feature Tag Navigation */
+.feature-selector__nav {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-selector__tag {
+  background-color: #e2e8f0;
+  color: #475569;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 140px;
+  justify-content: center;
+}
+
+.feature-selector__tag:hover {
+  background-color: #cbd5e1;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-selector__tag--active {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* Feature-specific active states */
+.feature-selector__tag[data-feature="store-comparison"].feature-selector__tag--active {
+  background-color: #3b82f6;
+  border-color: #2563eb;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.feature-selector__tag[data-feature="sierpinski-triangle"].feature-selector__tag--active {
+  background-color: #dc2626;
+  border-color: #b91c1c;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+.feature-selector__tag-emoji {
+  font-size: 1.1em;
+}
+
+.feature-selector__tag-text {
+  font-weight: 600;
+}
+
+.feature-selector__content {
+  min-height: calc(100vh - 140px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .feature-selector__title {
+    font-size: 2rem;
+  }
+  
+  .feature-selector__subtitle {
+    font-size: 1rem;
+  }
+  
+  .feature-selector__nav {
+    gap: 0.5rem;
+  }
+  
+  .feature-selector__tag {
+    min-width: 120px;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+} 

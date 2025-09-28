@@ -1,0 +1,118 @@
+.proxy-store-demo {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f8fafc;
+  border-right: 2px solid #e2e8f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.proxy-store-demo__header {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 1rem;
+}
+
+.proxy-store-demo__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin: 0 0 0.5rem 0;
+}
+
+.proxy-store-demo__subtitle {
+  color: #64748b;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.proxy-store-demo__section {
+  margin-bottom: 2rem;
+}
+
+.proxy-store-demo__section-title {
+  margin: 0 0 1rem 0;
+  color: #1f2937;
+  font-size: 1.25rem;
+}
+
+.proxy-store-demo__actions {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.proxy-store-demo__actions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.proxy-store-demo__button {
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: white;
+}
+
+.proxy-store-demo__button--primary {
+  background-color: #3b82f6;
+}
+
+.proxy-store-demo__button--primary:hover {
+  background-color: #2563eb;
+}
+
+.proxy-store-demo__button--secondary {
+  background-color: #7c3aed;
+}
+
+.proxy-store-demo__button--secondary:hover {
+  background-color: #6d28d9;
+}
+
+.proxy-store-demo__button--tertiary {
+  background-color: #059669;
+}
+
+.proxy-store-demo__button--tertiary:hover {
+  background-color: #047857;
+}
+
+.proxy-store-demo__pros-cons {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.proxy-store-demo__pros {
+  margin-bottom: 1.5rem;
+}
+
+.proxy-store-demo__pros-title {
+  color: #059669;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.proxy-store-demo__cons-title {
+  color: #dc2626;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.proxy-store-demo__list {
+  color: #374151;
+  padding-left: 1.25rem;
+  margin: 0;
+  line-height: 1.6;
+} 

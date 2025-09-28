@@ -1,0 +1,122 @@
+/* Shared styles for granular components */
+.component-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.component-card__title {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.component-card__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.component-card__row:last-child {
+  margin-bottom: 0;
+}
+
+.component-card__label {
+  font-weight: 500;
+  color: #374151;
+}
+
+.component-card__label--small {
+  font-size: 0.875rem;
+}
+
+.component-card__value {
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.component-card__value--large {
+  font-size: 1.25rem;
+}
+
+.component-card__value--small {
+  padding: 0.125rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.component-card__text-value {
+  max-width: 150px;
+  text-align: right;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Proxy component styles */
+.proxy-count-component {
+  border: 2px solid #3b82f6;
+}
+
+.proxy-count-component .component-card__title {
+  color: #1e40af;
+}
+
+.proxy-count-component .component-card__value {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.proxy-text-component {
+  border: 2px solid #7c3aed;
+}
+
+.proxy-text-component .component-card__title {
+  color: #7c3aed;
+}
+
+.proxy-text-component .component-card__value {
+  background-color: #f3e8ff;
+  color: #7c3aed;
+}
+
+/* Context component styles */
+.context-count-component {
+  border: 2px solid #f59e0b;
+}
+
+.context-count-component .component-card__title {
+  color: #d97706;
+}
+
+.context-count-component .component-card__value {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.context-text-component {
+  border: 2px solid #10b981;
+}
+
+.context-text-component .component-card__title {
+  color: #059669;
+}
+
+.context-text-component .component-card__value {
+  background-color: #ecfdf5;
+  color: #059669;
+}
+
+/* Render count styles */
+.render-count {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.render-count--context {
+  background-color: #fce7f3;
+  color: #be185d;
+} 

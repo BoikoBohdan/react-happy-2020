@@ -1,0 +1,141 @@
+.context-api-demo {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fefcfb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.context-api-demo__header {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #f59e0b;
+  padding-bottom: 1rem;
+}
+
+.context-api-demo__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #d97706;
+  margin: 0 0 0.5rem 0;
+}
+
+.context-api-demo__subtitle {
+  color: #78716c;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.context-api-demo__section {
+  margin-bottom: 2rem;
+}
+
+.context-api-demo__section-title {
+  margin: 0 0 1rem 0;
+  color: #1f2937;
+  font-size: 1.25rem;
+}
+
+.context-api-demo__actions {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  border: 1px solid #fed7aa;
+}
+
+.context-api-demo__actions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.context-api-demo__button {
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: white;
+}
+
+.context-api-demo__button--primary {
+  background-color: #f59e0b;
+}
+
+.context-api-demo__button--primary:hover {
+  background-color: #d97706;
+}
+
+.context-api-demo__button--disabled {
+  background-color: #6b7280;
+  opacity: 0.7;
+}
+
+.context-api-demo__button--disabled:hover {
+  background-color: #4b5563;
+}
+
+.context-api-demo__button--tertiary {
+  background-color: #10b981;
+}
+
+.context-api-demo__button--tertiary:hover {
+  background-color: #059669;
+}
+
+.context-api-demo__pros-cons {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  border: 1px solid #fed7aa;
+}
+
+.context-api-demo__pros {
+  margin-bottom: 1.5rem;
+}
+
+.context-api-demo__pros-title {
+  color: #059669;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.context-api-demo__cons-title {
+  color: #dc2626;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.context-api-demo__list {
+  color: #374151;
+  padding-left: 1.25rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.context-api-demo__highlight {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #fef3c7;
+  border-radius: 8px;
+  border: 1px solid #fbbf24;
+}
+
+.context-api-demo__highlight-title {
+  color: #d97706;
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.context-api-demo__highlight-text {
+  color: #92400e;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+} 
